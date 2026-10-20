@@ -1,0 +1,11 @@
+name: Microfrontend Angular
+on: workflow_dispatch
+jobs:
+  first-microfrontend:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello Github Actions
+        run: echo "This is my first microfrontend angular22"
+      - name: Byw GitHub Action
+        run: echo "Byw github action"
+      
